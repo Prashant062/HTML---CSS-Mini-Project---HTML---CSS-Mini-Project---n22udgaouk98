@@ -1,1 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhotographsPic Site</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        body{
+          background-color: grey;
+        }
+        #landing{
+            display:flex;
+            justify-content:center;
+           height: 100%; 
+        }
+        #landing-text{
+            background-color: #fff;
+            display: inline-block;
+            border: 2px solid rgb(116, 37, 37);
+            height:100vh;
+            width: 50%;
+        }
+        #landing-text-inner{
+            display:inline-block;
+            margin: 40px;
+            padding: 40px;
+            margin-top: 60px;
+        }
 
+        #landing-image{
+            background-color: #fff;
+            display: inline-block;
+            height:90vh;
+            width:50%;
+        }
+        #landing-image img{
+          height:100vh;
+            width:100%;
+        }
+        img{
+          height: 90vh;
+          border: 2px solid rgb(116, 37, 37);
+        }
+        h1{
+          font-size:50px;
+        }
+        .btn{
+          display: block;
+          /* margin-left: 50px; */
+          text-decoration: none;
+          text-align: center;
+          margin-top: 20px;
+          padding:20px;      
+          font-size: 30px;
+          border: 2px solid gray;
+          border-radius: 20px;
+        }
+        .caption{
+          background-color:grey;
+          text-align: center;
+        }
+       
+        #header{
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          height:60px;
+          margin-top:10px;
+          margin-bottom:10px;
+          background-color:grey;
+        }
+        #images img{
+          width: 100%;
+          height: auto;
+          background-color: grey;
+        }
+        footer{
+          text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="landing">
+      <div id="landing-text">
+        <div id="landing-text-inner">
+          <h1>Stark's PhotoGraphy</h1>
+          <h3>Beutiful Natural Photographs</h3>
+          <a href="#images" class="btn" id="view-work">View Work</a>
+        </div>
+      </div>
+      <div id="landing-image">
+        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtZXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="image">
+      </div>
+    </div>
+    <div id="images">
+      <div id="header">
+        <h2>Work Area</h2>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1678191093837-712939f1aea7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=858&q=80"
+        alt="PhotographsPic"/>
+        
+        <div class="caption">
+          <h3>First Photo</h3>
+          <p>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt nihil ipsam et, perspiciatis inventore illum non autem ut! Omnis odit necessitatibus nobis qui, minima consequuntur inventore ea. Maiores alias accusantium inventore est nam fugiat accusamus vitae adipisci quam ad?
+          </p>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1677406642664-394be58ba87b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDk0fHhIeFlUTUhMZ09jfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt="working photo"/>
+      <div class="caption">
+        <h3>Second Photo</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt nihil ipsam et, perspiciatis inventore illum non autem ut! Omnis odit necessitatibus nobis qui, minima consequuntur inventore ea. Maiores alias accusantium inventore est nam fugiat accusamus vitae adipisci quam ad?
+         </p>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1677785617617-64fcfbb19683?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzfHFQWXNEenZKT1ljfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+        alt="PhotographsPic2"/>
+      <div class="caption">
+        <h3>Third Photo</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt nihil ipsam et, perspiciatis inventore illum non autem ut! Omnis odit necessitatibus nobis qui, minima consequuntur inventore ea. Maiores alias accusantium inventore est nam fugiat accusamus vitae adipisci quam ad?
+         </p>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1678776682765-25854662bbdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8RnpvM3p1T0hONnd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+        alt="PhotographsPic3"/>
+      <div class="caption">
+        <h3>Fourth Photo</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt nihil ipsam et, perspiciatis inventore illum non autem ut! Omnis odit necessitatibus nobis qui, minima consequuntur inventore ea. Maiores alias accusantium inventore est nam fugiat accusamus vitae adipisci quam ad?
+         </p>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1678644897769-8eeaa24b1980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDR8RnpvM3p1T0hONnd8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+        alt="PhotographsPic4"/>
+      <div class="caption">
+        <h3>Fifth Photo</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt nihil ipsam et, perspiciatis inventore illum non autem ut! Omnis odit necessitatibus nobis qui, minima consequuntur inventore ea. Maiores alias accusantium inventore est nam fugiat accusamus vitae adipisci quam ad?
+         </p>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1648455198279-9bdfc1167445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEwMnxGem8zenVPSE42d3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+        alt="PhotographsPic5"/>
+    </div>
+    <footer>
+        <h3>Get in touch</h3>
+        <p>Email or call us to set up a consult</p>
+        <p>
+            "Email:"
+            <strong>prashantrawat879@gmail.com</strong>
+        </p>
+        <p>
+            "Phone No.:"
+            <strong>(+91) 9956288808</strong>
+        </p>
+    </footer>
+  </body>
+</html>
